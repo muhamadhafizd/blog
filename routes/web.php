@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('mhs','Mahasiswa@index');
+Route::get('products','ProductsController@index');
